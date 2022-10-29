@@ -1,0 +1,15 @@
+spring:
+  rabbitmq:
+    addresses: localhost
+    port: 5672
+    username: haydikodlayalim
+    password: haydikodlayalim
+
+sr:
+  rabbit:
+    queue:
+      name: haydi-kodlayalim-queue
+    exchange:
+      name: haydikodlayalim-exchange
+    routing:
+      name: haydikodlayalim-routing
